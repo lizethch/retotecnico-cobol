@@ -1,0 +1,24 @@
+{
+  "name": "retotecnico-cobol",
+  "version": "1.0.0",
+  "description": "CLI para procesar transacciones bancarias desde archivos CSV",
+  "main": "src/index.js",
+  "bin": {
+    "procesar-transacciones": "./cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "csv",
+    "finanzas",
+    "transacciones"
+  ],
+  "author": "Lizeth",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0"
+  }
+}
